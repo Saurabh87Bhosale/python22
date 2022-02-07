@@ -71,6 +71,10 @@ def carloan(request):
    
 
 >> python manage.py runserver
+
+
+
+/////////////////////////////////////////kjdfkjl/////////////////////////////////
     
 
   
