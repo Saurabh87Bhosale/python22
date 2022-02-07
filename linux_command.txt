@@ -1,0 +1,1436 @@
+root@DESKTOP-HCOV6N3:~# date        --current date with time
+Wed Dec  8 07:04:19 IST 2021
+root@DESKTOP-HCOV6N3:~# cal         --current month with time  
+   December 2021
+Su Mo Tu We Th Fr Sa
+          1  2  3  4
+ 5  6  7  8  9 10 11
+12 13 14 15 16 17 18
+19 20 21 22 23 24 25
+26 27 28 29 30 31
+
+root@DESKTOP-HCOV6N3:~# cal 2000
+                            2000
+      January               February               March
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa
+                   1         1  2  3  4  5            1  2  3  4
+ 2  3  4  5  6  7  8   6  7  8  9 10 11 12   5  6  7  8  9 10 11
+ 9 10 11 12 13 14 15  13 14 15 16 17 18 19  12 13 14 15 16 17 18
+16 17 18 19 20 21 22  20 21 22 23 24 25 26  19 20 21 22 23 24 25
+23 24 25 26 27 28 29  27 28 29              26 27 28 29 30 31
+30 31
+
+       April                  May                   June
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa
+                   1      1  2  3  4  5  6               1  2  3
+ 2  3  4  5  6  7  8   7  8  9 10 11 12 13   4  5  6  7  8  9 10
+ 9 10 11 12 13 14 15  14 15 16 17 18 19 20  11 12 13 14 15 16 17
+16 17 18 19 20 21 22  21 22 23 24 25 26 27  18 19 20 21 22 23 24
+23 24 25 26 27 28 29  28 29 30 31           25 26 27 28 29 30
+30
+
+        July                 August              September
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa
+                   1         1  2  3  4  5                  1  2
+ 2  3  4  5  6  7  8   6  7  8  9 10 11 12   3  4  5  6  7  8  9
+ 9 10 11 12 13 14 15  13 14 15 16 17 18 19  10 11 12 13 14 15 16
+16 17 18 19 20 21 22  20 21 22 23 24 25 26  17 18 19 20 21 22 23
+23 24 25 26 27 28 29  27 28 29 30 31        24 25 26 27 28 29 30
+30 31
+
+      October               November              December
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa
+ 1  2  3  4  5  6  7            1  2  3  4                  1  2
+ 8  9 10 11 12 13 14   5  6  7  8  9 10 11   3  4  5  6  7  8  9
+15 16 17 18 19 20 21  12 13 14 15 16 17 18  10 11 12 13 14 15 16
+22 23 24 25 26 27 28  19 20 21 22 23 24 25  17 18 19 20 21 22 23
+29 30 31              26 27 28 29 30        24 25 26 27 28 29 30
+                                            31
+root@DESKTOP-HCOV6N3:~# cal 3 2000
+     March 2000
+Su Mo Tu We Th Fr Sa
+          1  2  3  4
+ 5  6  7  8  9 10 11
+12 13 14 15 16 17 18
+19 20 21 22 23 24 25
+26 27 28 29 30 31
+
+root@DESKTOP-HCOV6N3:~# cal march 2000
+     March 2000
+Su Mo Tu We Th Fr Sa
+          1  2  3  4
+ 5  6  7  8  9 10 11
+12 13 14 15 16 17 18
+19 20 21 22 23 24 25
+26 27 28 29 30 31
+
+root@DESKTOP-HCOV6N3:~# who           ---one who login
+root@DESKTOP-HCOV6N3:~# whoall        ---login or logout (all users (employee) in thw team)
+whoall: command not found
+root@DESKTOP-HCOV6N3:~# whoami        ---it shows our ID name
+root
+root@DESKTOP-HCOV6N3:~# hostname      ---shows system name
+DESKTOP-HCOV6N3
+root@DESKTOP-HCOV6N3:~# hostname -i   ---shows IP address
+127.0.1.1
+root@DESKTOP-HCOV6N3:~# whatis grep        ---it is for one line information
+grep (1)             - print lines that match patterns
+root@DESKTOP-HCOV6N3:~# man grep           ---it is for discriptive information
+root@DESKTOP-HCOV6N3:~# ls                 ---this is to show directory, files
+c1  c2  f1  f2  f3  fil25  fil250.  file1  file2  file3  info  k1  k2  k3  mh  t2  t3  tst
+root@DESKTOP-HCOV6N3:~# wc                  ---it is showing how many no of lines,words,characters in a file
+hi
+hello
+      2       2       9
+root@DESKTOP-HCOV6N3:~# wc -l           ----no. of lines
+hi
+kaka
+2
+root@DESKTOP-HCOV6N3:~# wc -w        ---no. of words
+hi
+first jk
+3
+root@DESKTOP-HCOV6N3:~# wc -c         ---no. of character
+hi
+my name is
+saurabh
+22
+
+*********************************************************************************************************
+
+root@DESKTOP-HCOV6N3:~# cat > QA_24      --to create new file
+hii
+low
+hello
+mam
+root@DESKTOP-HCOV6N3:~# cat QA_24         --to disply file
+hii
+low
+hello
+mam
+root@DESKTOP-HCOV6N3:~# cat >> QA_24      --- add data into existing file
+mobile
+ram
+root@DESKTOP-HCOV6N3:~# cat QA_24
+hii
+low
+hello
+mam
+mobile
+ram
+root@DESKTOP-HCOV6N3:~# cat > QA_25
+my
+name
+is
+root@DESKTOP-HCOV6N3:~# cp QA_24 QA_25_
+root@DESKTOP-HCOV6N3:~# cat QA_25
+my
+name
+is
+root@DESKTOP-HCOV6N3:~# cp QA_24 QA_25            --copy data from QA_24 and paste into QA_25(with overriding)
+root@DESKTOP-HCOV6N3:~# cat QA_25
+hii
+low
+hello
+mam
+mobile
+ram
+root@DESKTOP-HCOV6N3:~# mv QA_24 file_1             --cut data from QA_24 and paste into QA_25(with overriding) 
+root@DESKTOP-HCOV6N3:~# cat file_1                              (^ it acts like rename also)                               
+hii
+low
+hello
+mam
+mobile
+ram
+root@DESKTOP-HCOV6N3:~# cat QA_24
+cat: QA_24: No such file or directory
+root@DESKTOP-HCOV6N3:~# cat QA_25 >> file_1      --copy data from QA_25 and paste into file_1(without overriding)
+root@DESKTOP-HCOV6N3:~# cat file_1
+hii
+low
+hello
+mam
+mobile
+ram
+hii
+low
+hello
+mam
+mobile
+ram
+root@DESKTOP-HCOV6N3:~# cat QA_25
+hii
+low
+hello
+mam
+mobile
+ram
+root@DESKTOP-HCOV6N3:~# touch new_123        --for creating empty file
+root@DESKTOP-HCOV6N3:~# cat > new_123
+kerkrhb
+root@DESKTOP-HCOV6N3:~# cat new_123  
+kerkrhb
+root@DESKTOP-HCOV6N3:~# ls
+QA_22  QA_25  QA_25_  c1  c2  f1  f2  f3  fil25  fil250.  file1  file2  file3  file_1  info  k1  k2  k3  mh  new_123  t2  t3  tst
+root@DESKTOP-HCOV6N3:~# rm QA_25_              ---to delete/remove file
+root@DESKTOP-HCOV6N3:~# ls
+QA_22  QA_25  c1  c2  f1  f2  f3  fil25  fil250.  file1  file2  file3  file_1  info  k1  k2  k3  mh  new_123  t2  t3  tst
+root@DESKTOP-HCOV6N3:~# cat > QA_26
+ourr
+ht
+rhht
+rht
+rhtt
+rth
+r565
+4656
+665
+5
+6559
+659
+6559
+5595
+5655
+65
+5
+4
+656
+wreg
+6
+6
+5h
+6565
+t66
+root@DESKTOP-HCOV6N3:~# cat QA_26
+ourr
+ht
+rhht
+rht
+rhtt
+rth
+r565
+4656
+665
+5
+6559
+659
+6559
+5595
+5655
+65
+5
+4
+656
+wreg
+6
+6
+5h
+6565
+t66
+root@DESKTOP-HCOV6N3:~# head QA_26      --to show first 10 lines
+ourr
+ht
+rhht
+rht
+rhtt
+rth
+r565
+4656
+665
+5
+root@DESKTOP-HCOV6N3:~# tail QA_26     --to show last 10 lines
+65
+5
+4
+656
+wreg
+6
+6
+5h
+6565
+t66
+
+root@DESKTOP-HCOV6N3:~# head -8 QA_26 | tail -7    --to show specific lines between(2-8)
+ht
+rhht                                                #formula - (8-2)+1=7
+rht                                                            ^haed   ^tail 
+rhtt
+rth
+r565
+4656
+root@DESKTOP-HCOV6N3:~# head -8 QA_26 | tail -1   -- to show one line(here showing 8th line)
+4656
+root@DESKTOP-HCOV6N3:~# more QA_26                --to show page by page data from start (for next page- press(SPACE))
+ourr
+ht
+rhht
+rht
+rhtt
+rth
+r565
+4656
+665
+5
+6559
+659
+6559
+5595
+5655
+65
+5
+4
+656
+wreg
+6
+6
+5h
+6565
+t66
+root@DESKTOP-HCOV6N3:~# cat >> QA_26
+441
+1
+4
+
+4
+
+4
+
+
+4144
+14
+1
+41
+4
+1
+
+41
+4
+14
+
+144
+7
+5
+
+6887
+896
+4
+7
+54
+
+88557
+7
+85778555
+7
+
+788
+
+
+8
+5
+
+5
+88
+5
+
+5
+8
+55
+7
+7
+4
+5
+6
+89
+455
+4
+556
+42
+42414
+4255
+774
+7
+412
+3
+3
+3
+2
+5
+4
+6
+
+
+
+845
+456
+85
+45
+root@DESKTOP-HCOV6N3:~# more QA_26
+ourr
+ht
+rhht
+rht
+rhtt
+rth
+r565
+4656
+665
+5
+6559
+659
+6559
+5595
+5655
+65
+5
+4
+656
+wreg
+6
+6
+5h
+6565
+t66
+441
+1
+4
+
+4
+
+4
+
+
+4144
+14
+1
+41
+4
+1
+
+41
+4
+14
+
+144
+7
+5
+
+6887
+896
+4
+7
+54
+
+88557
+7
+85778555
+7
+
+788
+
+
+8
+5
+
+5
+88
+5
+
+5
+8
+55
+7
+7
+4
+5
+6
+89
+455
+4
+556
+42
+42414
+4255
+774
+7
+412
+3
+3
+3
+2
+5
+4
+6
+
+
+
+845
+456
+85
+45
+root@DESKTOP-HCOV6N3:~# less QA_26    --- to show page by page data from last (it will show last at 'end')
+root@DESKTOP-HCOV6N3:~#  
+
+*****************************************************************************************
+grep -------
+
+root@DESKTOP-HCOV6N3:~# ls
+QA_22  QA_26  c1  f1  f3     fil250.  file2  file_1  k1  k3  new_123  s2  sa87   state  t3
+QA_25  Test   c2  f2  fil25  file1    file3  info    k2  mh  s1       s3  sau87  t2     tst
+root@DESKTOP-HCOV6N3:~# cat sau87
+i live in pune
+pune
+mumbai
+Pune
+like Mumbai
+sometime
+i work
+my
+name is
+Pune
+mumbai
+l want
+message
+to
+my
+parents
+myself
+yourself
+consider
+to Mumbai
+msdmk
+kmdfk
+pune
+adur
+
+
+jan
+
+loss
+
+markd
+root@DESKTOP-HCOV6N3:~# grep 'pune' sau87              --  Perticular pattern or word can search
+i live in pune
+pune
+pune
+root@DESKTOP-HCOV6N3:~# grep -i 'pune' sau87         -- (-i for all captital and small letter words)
+i live in pune
+pune
+Pune
+Pune
+pune
+root@DESKTOP-HCOV6N3:~# grep -i -n 'pune' sau87       ## (-n to show number)
+1:i live in pune
+2:pune
+4:Pune
+10:Pune
+23:pune
+root@DESKTOP-HCOV6N3:~# grep -c -i 'pune' sau87     ## to show count
+5
+root@DESKTOP-HCOV6N3:~# grep -v 'pune' sau87         ## it will show other than pune
+mumbai
+Pune
+like Mumbai
+sometime
+i work
+my
+name is
+Pune
+mumbai
+l want
+message
+to
+my
+parents
+myself
+yourself
+consider
+to Mumbai
+msdmk
+kmdfk
+adur
+
+
+jan
+
+loss
+
+markd
+root@DESKTOP-HCOV6N3:~# grep '^$' sau87         ## to show empty space
+
+
+
+
+root@DESKTOP-HCOV6N3:~# grep '^$' -n sau87
+25:
+26:
+28:
+30:
+root@DESKTOP-HCOV6N3:~# grep 'pune' sau87 && grep 'mumbai' sau87       ## serching for more then one word
+i live in pune
+pune
+pune
+mumbai
+mumbai
+root@DESKTOP-HCOV6N3:~# grep -r 'pune'                                ## to show same word(pune) in different files
+.bash_history:grep -i -n 'pune' file1 && grep -i -n 'jhj' file1
+.bash_history:grep 'pune' file1
+.bash_history:grep -n 'pune' file1
+.bash_history:grep -i -n 'pune' file1
+.bash_history:grep -c -i  'pune' file1
+.bash_history:grep -v 'pune' file1
+.bash_history:grep 'pune' file1 && grep 'hello' file1
+.bash_history:grep -r 'pune'.*
+.bash_history:egrep 'pune|hello' file1
+.bash_history:grep -i -n 'pune' file1
+.bash_history:grep 'pune' file1 && grep 'hello' file1
+.bash_history:grep -v 'pune' file1
+.bash_history:grep -c -i 'pune' file1
+.bash_history:mkdir -p test/pune/katraj/road
+.bash_history:cd pune
+.bash_history:grep 'pune' sau87
+.bash_history:grep -i -n 'pune' sau87
+.bash_history:grep -c -i 'pune' sau87
+.bash_history:grep -v 'pune' sau87
+.bash_history:grep -i 'pune' sau87 && grep -i 'mumbai' sau87
+.bash_history:grep -r 'pune'
+.bash_history:grep -r 'pune' sau87 file1
+.bash_history:egrep 'pune' | 'mumbai' sau87
+.bash_history:egrep 'pune | mumbai' sau87
+.bash_history:egrep 'pune|mumbai' sau87
+.bash_history:egrep -i 'pune|mumbai' sau87
+.bash_history:mkdir -p state/city/pune/katraj/road
+.bash_history:cd pune
+.bash_history:cd state/city/pune/katraj/road
+file1:i like pune
+file1:i live in pune
+file1:pune is
+sau87:i live in pune
+sau87:pune
+sau87:pune
+root@DESKTOP-HCOV6N3:~# ls
+QA_22  QA_26  c1  f1  f3     fil250.  file2  file_1  k1  k3  new_123  s2  sa87   state  t3
+QA_25  Test   c2  f2  fil25  file1    file3  info    k2  mh  s1       s3  sau87  t2     tst
+root@DESKTOP-HCOV6N3:~# cat sa87
+5
+3
+69
+
+48
+
+56
+5
+69
+48
+5
+2
+654
+6626
+269
+246
+255
+36
+26
+23
+root@DESKTOP-HCOV6N3:~# sort sa87    ## sort in order- 1.empty 2.capital 3.small letter (-r for reverse order)
+
+
+2
+23
+246
+255
+26
+269
+3
+36
+48
+48
+5
+5
+5
+56
+654
+6626
+69
+69
+root@DESKTOP-HCOV6N3:~# sort -n sa87      ## (number in ascending)
+
+
+2
+3
+5
+5
+5
+23
+26
+36
+48
+48
+56
+69
+69
+246
+255
+269
+654
+6626
+root@DESKTOP-HCOV6N3:~# sort -n -r sa87      ## number in descending
+6626
+654
+269
+255
+246
+69
+69
+56
+48
+48
+36
+26
+23
+5
+5
+5
+3
+2
+
+
+root@DESKTOP-HCOV6N3:~# ls
+QA_22  QA_26  c1  f1  f3     fil250.  file2  file_1  k1  k3  new_123  s2  sa87   state  t3
+QA_25  Test   c2  f2  fil25  file1    file3  info    k2  mh  s1       s3  sau87  t2     tst
+root@DESKTOP-HCOV6N3:~# cat c1
+A
+B
+F
+N
+H
+root@DESKTOP-HCOV6N3:~# gzip c1             ##   (to create zip file) file in red color
+root@DESKTOP-HCOV6N3:~# ls
+QA_22  QA_26  c1.gz  f1  f3     fil250.  file2  file_1  k1  k3  new_123  s2  sa87   state  t3
+QA_25  Test   c2     f2  fil25  file1    file3  info    k2  mh  s1       s3  sau87  t2     tst
+root@DESKTOP-HCOV6N3:~# gunzip c1         ## to unzip file     
+root@DESKTOP-HCOV6N3:~# ls
+QA_22  QA_26  c1  f1  f3     fil250.  file2  file_1  k1  k3  new_123  s2  sa87   state  t3
+QA_25  Test   c2  f2  fil25  file1    file3  info    k2  mh  s1       s3  sau87  t2     tst
+root@DESKTOP-HCOV6N3:~# cat sau87
+i live in pune
+pune
+mumbai
+Pune
+like Mumbai
+sometime
+i work
+my
+name is
+Pune
+mumbai
+l want
+message
+to
+my
+parents
+myself
+yourself
+consider
+to Mumbai
+msdmk
+kmdfk
+pune
+adur
+
+
+jan
+
+loss
+
+markd
+root@DESKTOP-HCOV6N3:~# egrep "pune|mumbai|my" -n -i sau87          ## to serch multiword in file
+1:i live in pune
+2:pune
+3:mumbai
+4:Pune
+5:like Mumbai
+8:my
+10:Pune
+11:mumbai
+15:my
+17:myself
+20:to Mumbai
+23:pune
+root@DESKTOP-HCOV6N3:~#  
+
+************************************************************
+
+directory related command
+
+root@DESKTOP-HCOV6N3:~# mkdir priya                   ## make priya as directory
+
+root@DESKTOP-HCOV6N3:~# mkdir r1 r2 r3                ## make multiple directories
+root@DESKTOP-HCOV6N3:~# ls
+QA_22  QA_26  c1  f1  f3     fil250.  file2  file_1  k1  k3  new_123  r1  r3  s2  sa87   state  t3
+QA_25  Test   c2  f2  fil25  file1    file3  info    k2  mh  priya    r2  s1  s3  sau87  t2     tst
+root@DESKTOP-HCOV6N3:~# mkdir -p city/pune/state/maharashtra/country/india       ## directory with path
+root@DESKTOP-HCOV6N3:~# cd city
+root@DESKTOP-HCOV6N3:~/city# cd pune/state
+root@DESKTOP-HCOV6N3:~/city/pune/state# cd ..
+root@DESKTOP-HCOV6N3:~/city/pune# cd state/maharashtra/country
+root@DESKTOP-HCOV6N3:~/city/pune/state/maharashtra/country# cd../..
+-bash: cd../..: No such file or directory
+root@DESKTOP-HCOV6N3:~/city/pune/state/maharashtra/country# cd ../..
+root@DESKTOP-HCOV6N3:~/city/pune/state# cd ../../..
+root@DESKTOP-HCOV6N3:~# cd city/pune/state
+root@DESKTOP-HCOV6N3:~/city/pune/state# cd ~                  ## go to root directory
+root@DESKTOP-HCOV6N3:~# rmdir s1                              ## to remove empty directory
+root@DESKTOP-HCOV6N3:~# ls
+QA_22  QA_26  c1  city  f2  fil25    file1  file3   info  k2  mh       priya  r2  s2  sa87   state  t3
+QA_25  Test   c2  f1    f3  fil250.  file2  file_1  k1    k3  new_123  r1     r3  s3  sau87  t2     tst
+root@DESKTOP-HCOV6N3:~# rm -r pune
+rm: cannot remove 'pune': No such file or directory
+root@DESKTOP-HCOV6N3:~# rm -r city                       ## to remove directory with files
+root@DESKTOP-HCOV6N3:~# ls
+QA_22  QA_26  c1  f1  f3     fil250.  file2  file_1  k1  k3  new_123  r1  r3  s3    sau87  t2  tst
+QA_25  Test   c2  f2  fil25  file1    file3  info    k2  mh  priya    r2  s2  sa87  state  t3
+root@DESKTOP-HCOV6N3:~# cd city
+-bash: cd: city: No such file or directory
+
+*****************************************************************
+
+permission related command
+
+1.symbolic
+  user(u) group(g) others(o) --- read(r),write(w),execute(x)
+
+2.numeric 
+  read-4   write-2  execute-1
+=========================================================================================================
+root@DESKTOP-HCOV6N3:~# ls -l
+total 0
+              (file      (owner   
+(permission) interlink)   /user)  (group)
+-rw-r--r--      1         root     root      28 Dec  9 08:23 QA_22
+-rw-r--r-- 1 root root   29 Dec  9 08:30 QA_25
+-rw-r--r-- 1 root root  291 Dec  9 09:07 QA_26
+drwxr-xr-x 1 root root 4096 Dec 12 19:52 Test
+-rw-r--r-- 1 root root   10 Oct 16 10:53 c1
+-rw-r--r-- 1 root root   10 Oct 16 10:53 c2
+drwxr-xr-x 1 root root 4096 Oct 14 14:24 f1
+drwxr-xr-x 1 root root 4096 Oct 14 14:24 f2
+drwxr---wx 1 root root 4096 Oct 14 14:24 f3
+-rwxrw-r-x 1 root root  188 Oct 17 14:29 fil25
+-rw-r--r-- 1 root root   70 Oct 16 10:49 fil250.
+-rw-r--r-- 1 root root  171 Oct 13 15:03 file1
+-rw-r--r-- 1 root root   31 Oct 12 21:07 file2
+-rw-r--r-- 1 root root   52 Oct 12 21:08 file3
+-rw-r--r-- 1 root root   58 Dec  9 08:39 file_1
+-rw-r--r-- 1 root root   66 Oct 17 11:13 info
+drwxr--r-- 1 root root 4096 Oct 14 14:39 k1
+d-wx-w---- 1 root root 4096 Oct 14 14:39 k2
+drwxr-xr-x 1 root root 4096 Oct 14 14:39 k3
+-rw-r--r-- 1 root root   17 Oct 16 11:03 mh
+-rw-r--r-- 1 root root    8 Dec  9 08:45 new_123
+drwxr-xr-x 1 root root 4096 Dec 21 12:40 priya
+drwxr-xr-x 1 root root 4096 Dec 21 12:41 r1
+drwxr-xr-x 1 root root 4096 Dec 21 12:41 r2
+drwxr-xr-x 1 root root 4096 Dec 21 12:41 r3
+drwxr-xr-x 1 root root 4096 Dec 12 19:53 s2
+drwxr-xr-x 1 root root 4096 Dec 12 19:53 s3
+-rw-r--r-- 1 root root   57 Dec 12 19:47 sa87
+-rw-r--r-- 1 root root  191 Dec 12 19:19 sau87
+drwxr-xr-x 1 root root 4096 Dec 12 19:55 state
+dr-xrwxr-x 1 root root 4096 Oct 13 21:27 t2
+drwxr-xr-x 1 root root 4096 Oct 13 21:27 t3
+drw--w--wx 1 root root 4096 Oct 13 21:33 tst
+root@DESKTOP-HCOV6N3:~# chmod u-wx t3                             --w,x removing from user
+root@DESKTOP-HCOV6N3:~# ls
+QA_22  QA_26  c1  f1  f3     fil250.  file2  file_1  k1  k3  new_123  r1  r3  s3    sau87  t2  tst
+QA_25  Test   c2  f2  fil25  file1    file3  info    k2  mh  priya    r2  s2  sa87  state  t3
+root@DESKTOP-HCOV6N3:~# ls -l
+total 0
+-rw-r--r-- 1 root root   28 Dec  9 08:23 QA_22
+-rw-r--r-- 1 root root   29 Dec  9 08:30 QA_25
+-rw-r--r-- 1 root root  291 Dec  9 09:07 QA_26
+drwxr-xr-x 1 root root 4096 Dec 12 19:52 Test
+-rw-r--r-- 1 root root   10 Oct 16 10:53 c1
+-rw-r--r-- 1 root root   10 Oct 16 10:53 c2
+drwxr-xr-x 1 root root 4096 Oct 14 14:24 f1
+drwxr-xr-x 1 root root 4096 Oct 14 14:24 f2
+drwxr---wx 1 root root 4096 Oct 14 14:24 f3
+-rwxrw-r-x 1 root root  188 Oct 17 14:29 fil25
+-rw-r--r-- 1 root root   70 Oct 16 10:49 fil250.
+-rw-r--r-- 1 root root  171 Oct 13 15:03 file1
+-rw-r--r-- 1 root root   31 Oct 12 21:07 file2
+-rw-r--r-- 1 root root   52 Oct 12 21:08 file3
+-rw-r--r-- 1 root root   58 Dec  9 08:39 file_1
+-rw-r--r-- 1 root root   66 Oct 17 11:13 info
+drwxr--r-- 1 root root 4096 Oct 14 14:39 k1
+d-wx-w---- 1 root root 4096 Oct 14 14:39 k2
+drwxr-xr-x 1 root root 4096 Oct 14 14:39 k3
+-rw-r--r-- 1 root root   17 Oct 16 11:03 mh
+-rw-r--r-- 1 root root    8 Dec  9 08:45 new_123
+drwxr-xr-x 1 root root 4096 Dec 21 12:40 priya
+drwxr-xr-x 1 root root 4096 Dec 21 12:41 r1
+drwxr-xr-x 1 root root 4096 Dec 21 12:41 r2
+drwxr-xr-x 1 root root 4096 Dec 21 12:41 r3
+drwxr-xr-x 1 root root 4096 Dec 12 19:53 s2
+drwxr-xr-x 1 root root 4096 Dec 12 19:53 s3
+-rw-r--r-- 1 root root   57 Dec 12 19:47 sa87
+-rw-r--r-- 1 root root  191 Dec 12 19:19 sau87
+drwxr-xr-x 1 root root 4096 Dec 12 19:55 state
+dr-xrwxr-x 1 root root 4096 Oct 13 21:27 t2
+dr--r-xr-x 1 root root 4096 Oct 13 21:27 t3
+drw--w--wx 1 root root 4096 Oct 13 21:33 tst
+root@DESKTOP-HCOV6N3:~# chmod 000 t3                        --removing all permissions
+root@DESKTOP-HCOV6N3:~# ls -l
+total 0
+-rw-r--r-- 1 root root   28 Dec  9 08:23 QA_22
+-rw-r--r-- 1 root root   29 Dec  9 08:30 QA_25
+-rw-r--r-- 1 root root  291 Dec  9 09:07 QA_26
+drwxr-xr-x 1 root root 4096 Dec 12 19:52 Test
+-rw-r--r-- 1 root root   10 Oct 16 10:53 c1
+-rw-r--r-- 1 root root   10 Oct 16 10:53 c2
+drwxr-xr-x 1 root root 4096 Oct 14 14:24 f1
+drwxr-xr-x 1 root root 4096 Oct 14 14:24 f2
+drwxr---wx 1 root root 4096 Oct 14 14:24 f3
+-rwxrw-r-x 1 root root  188 Oct 17 14:29 fil25
+-rw-r--r-- 1 root root   70 Oct 16 10:49 fil250.
+-rw-r--r-- 1 root root  171 Oct 13 15:03 file1
+-rw-r--r-- 1 root root   31 Oct 12 21:07 file2
+-rw-r--r-- 1 root root   52 Oct 12 21:08 file3
+-rw-r--r-- 1 root root   58 Dec  9 08:39 file_1
+-rw-r--r-- 1 root root   66 Oct 17 11:13 info
+drwxr--r-- 1 root root 4096 Oct 14 14:39 k1
+d-wx-w---- 1 root root 4096 Oct 14 14:39 k2
+drwxr-xr-x 1 root root 4096 Oct 14 14:39 k3
+-rw-r--r-- 1 root root   17 Oct 16 11:03 mh
+-rw-r--r-- 1 root root    8 Dec  9 08:45 new_123
+drwxr-xr-x 1 root root 4096 Dec 21 12:40 priya
+drwxr-xr-x 1 root root 4096 Dec 21 12:41 r1
+drwxr-xr-x 1 root root 4096 Dec 21 12:41 r2
+drwxr-xr-x 1 root root 4096 Dec 21 12:41 r3
+drwxr-xr-x 1 root root 4096 Dec 12 19:53 s2
+drwxr-xr-x 1 root root 4096 Dec 12 19:53 s3
+-rw-r--r-- 1 root root   57 Dec 12 19:47 sa87
+-rw-r--r-- 1 root root  191 Dec 12 19:19 sau87
+drwxr-xr-x 1 root root 4096 Dec 12 19:55 state
+dr-xrwxr-x 1 root root 4096 Oct 13 21:27 t2
+d--------- 1 root root 4096 Oct 13 21:27 t3
+drw--w--wx 1 root root 4096 Oct 13 21:33 tst
+root@DESKTOP-HCOV6N3:~# chmod 542 t3                         -- adding u+rx,g+r,o+w
+root@DESKTOP-HCOV6N3:~# ls -l
+total 0
+-rw-r--r-- 1 root root   28 Dec  9 08:23 QA_22
+-rw-r--r-- 1 root root   29 Dec  9 08:30 QA_25
+-rw-r--r-- 1 root root  291 Dec  9 09:07 QA_26
+drwxr-xr-x 1 root root 4096 Dec 12 19:52 Test
+-rw-r--r-- 1 root root   10 Oct 16 10:53 c1
+-rw-r--r-- 1 root root   10 Oct 16 10:53 c2
+drwxr-xr-x 1 root root 4096 Oct 14 14:24 f1
+drwxr-xr-x 1 root root 4096 Oct 14 14:24 f2
+drwxr---wx 1 root root 4096 Oct 14 14:24 f3
+-rwxrw-r-x 1 root root  188 Oct 17 14:29 fil25
+-rw-r--r-- 1 root root   70 Oct 16 10:49 fil250.
+-rw-r--r-- 1 root root  171 Oct 13 15:03 file1
+-rw-r--r-- 1 root root   31 Oct 12 21:07 file2
+-rw-r--r-- 1 root root   52 Oct 12 21:08 file3
+-rw-r--r-- 1 root root   58 Dec  9 08:39 file_1
+-rw-r--r-- 1 root root   66 Oct 17 11:13 info
+drwxr--r-- 1 root root 4096 Oct 14 14:39 k1
+d-wx-w---- 1 root root 4096 Oct 14 14:39 k2
+drwxr-xr-x 1 root root 4096 Oct 14 14:39 k3
+-rw-r--r-- 1 root root   17 Oct 16 11:03 mh
+-rw-r--r-- 1 root root    8 Dec  9 08:45 new_123
+drwxr-xr-x 1 root root 4096 Dec 21 12:40 priya
+drwxr-xr-x 1 root root 4096 Dec 21 12:41 r1
+drwxr-xr-x 1 root root 4096 Dec 21 12:41 r2
+drwxr-xr-x 1 root root 4096 Dec 21 12:41 r3
+drwxr-xr-x 1 root root 4096 Dec 12 19:53 s2
+drwxr-xr-x 1 root root 4096 Dec 12 19:53 s3
+-rw-r--r-- 1 root root   57 Dec 12 19:47 sa87
+-rw-r--r-- 1 root root  191 Dec 12 19:19 sau87
+drwxr-xr-x 1 root root 4096 Dec 12 19:55 state
+dr-xrwxr-x 1 root root 4096 Oct 13 21:27 t2
+dr-xr---w- 1 root root 4096 Oct 13 21:27 t3
+drw--w--wx 1 root root 4096 Oct 13 21:33 tst
+root@DESKTOP-HCOV6N3:~# chown amit t3                       --to give owner to anyone
+chown: invalid user: ‘amit’
+root@DESKTOP-HCOV6N3:~# chgrp groupname t3                  --give to group
+chgrp: invalid group: ‘groupname’
+
+*********************************************************************************************************
+memory related command
+
+  du                        ---to show only directory
+  du -a                     --- to show files and directory
+  du -a -h                  --- to show files and directory with memory in KB
+  df                        --- to show drive availability information
+  df -h                     --- drive size/ use / available
+
+**********************************************************************************************************
+Vi editor
+
+vi filename
+ then press i  -- insert--
+  then Esc
+  type- :wq! -- save and quit  / :w- save  / :q- quit or discard 
+
+  press j-down, k-up, h-left, l-right
+  
+ press x- to delet one character(on which place cursor is present) 
+       X- delete character before cursor place
+       u- for undo
+
+ press yy- to copy
+        p- to paste
+
+ press r-replace character
+       R-overwrite character from cursor onward
+       s-substitute one char. under cursor continue to insert
+       S-substitute entire line and begin to insert at the begining of line
+       ~- change "case" of individual character
+****************************************************************************************************************
+
+awk- Aknowledgement     -- scan and print a file data (mainly using column wise data)
+
+root@DESKTOP-HCOV6N3:~# cat > main
+saurabh bhosale adur kolhapur ML
+shubham bhosale adur kolhapur gokul
+priyanka bhosale pune pune testing
+pranav patil miraj sangli ETL
+jon wick newyork USA datascientist
+
+root@DESKTOP-HCOV6N3:~# awk '{print}' main
+
+saurabh bhosale adur kolhapur ML
+shubham bhosale adur kolhapur gokul
+priyanka bhosale pune pune testing
+pranav patil miraj sangli ETL
+jon wick newyork USA datascientist
+
+root@DESKTOP-HCOV6N3:~# awk '{print $1, $4}' main            --print 1sr nd 4th column
+saurabh kolhapur
+shubham kolhapur
+priyanka pune
+pranav sangli
+jon USA
+root@DESKTOP-HCOV6N3:~# awk '/kolhapur/{print}' main          --find particalar record
+saurabh bhosale adur kolhapur ML
+shubham bhosale adur kolhapur gokul
+
+root@DESKTOP-HCOV6N3:~# awk '{print $0}' main               $0--ro show all data
+saurabh bhosale adur kolhapur ML
+shubham bhosale adur kolhapur gokul
+priyanka bhosale pune pune testing
+pranav patil miraj sangli ETL
+jon wick newyork USA datascientist
+
+root@DESKTOP-HCOV6N3:~# awk '{print NR,$2,$5}' main           -- 2nd and 5th column with (NR) number
+1 bhosale ML
+2 bhosale gokul
+3 bhosale testing
+4 patil ETL
+5 wick datascientist
+
+root@DESKTOP-HCOV6N3:~# awk '{print $0,"Thank you"}' main       ---Thank you added at last in all rows
+saurabh bhosale adur kolhapur ML Thank you
+shubham bhosale adur kolhapur gokul Thank you
+priyanka bhosale pune pune testing Thank you
+pranav patil miraj sangli ETL Thank you
+jon wick newyork USA datascientist Thank you
+
+root@DESKTOP-HCOV6N3:~# awk ' {print "welcome", $0,"Thank you"}' main          --at first and last added
+welcome saurabh bhosale adur kolhapur ML Thank you
+welcome shubham bhosale adur kolhapur gokul Thank you
+welcome priyanka bhosale pune pune testing Thank you
+welcome pranav patil miraj sangli ETL Thank you
+welcome jon wick newyork USA datascientist Thank you
+
+root@DESKTOP-HCOV6N3:~# awk '{print FNR $1}' main
+1saurabh
+2shubham
+3priyanka
+4pranav
+5jon
+root@DESKTOP-HCOV6N3:~# awk '{print NR $1}' main
+1saurabh
+2shubham
+3priyanka
+4pranav
+5jon
+
+root@DESKTOP-HCOV6N3:~# awk 'NR>2 && NR<4' main                   --for showing rows
+priyanka bhosale pune pune testing
+
+************************************************************************************************************************
+
+sed -- for displaying like deleting and also replacement(globally)
+
+root@DESKTOP-HCOV6N3:~# sed '4d'    
+seewd
+seewd
+e
+e
+sdd
+sdd
+f
+d
+d
+root@DESKTOP-HCOV6N3:~# cat sa87
+5
+3
+69
+
+48
+
+56
+5
+69
+48
+5
+2
+654
+6626
+269
+246
+255
+36
+26
+23
+root@DESKTOP-HCOV6N3:~# sed -i '4d' sa87           -- 4th one deleting
+root@DESKTOP-HCOV6N3:~# cat sa87
+5
+3
+69
+48
+
+56
+5
+69
+48
+5
+2
+654
+6626
+269
+246
+255
+36
+26
+23
+root@DESKTOP-HCOV6N3:~# sed '6d;7d;8d' sa87      -- for multiple line deleting
+5
+3
+69
+48
+
+48
+5
+2
+654
+6626
+269
+246
+255
+36
+26
+23
+root@DESKTOP-HCOV6N3:~# sed -i '2,5d' sa87             --from 2 to 5 line deleted       (i- for permnent storage)
+root@DESKTOP-HCOV6N3:~# cat sa87
+5
+56
+5
+69
+48
+5
+2
+654
+6626
+269
+246
+255
+36
+26
+23
+root@DESKTOP-HCOV6N3:~# cat >> sa87
+23
+23
+
+5
+
+56
+6
+
+5
+root@DESKTOP-HCOV6N3:~# cat sa87
+5
+56
+5
+69
+48
+5
+2
+654
+6626
+269
+246
+255
+36
+26
+23
+23
+23
+
+5
+
+56
+6
+
+5
+root@DESKTOP-HCOV6N3:~# sed /^$/d sa87                   --empty line deleted
+5
+56
+5
+69
+48
+5
+2
+654
+6626
+269
+246
+255
+36
+26
+23
+23
+23
+5
+56
+6
+5
+
+root@DESKTOP-HCOV6N3:~# cat sa87
+5
+56
+5
+69
+48
+5
+2
+654
+6626
+269
+246
+255
+36
+26
+23
+23
+23
+
+5
+
+56
+6
+root@DESKTOP-HCOV6N3:~# sed -i '$d' sa87     --for last line deleted
+root@DESKTOP-HCOV6N3:~# cat sa87
+5
+56
+5
+69
+48
+5
+2
+654
+6626
+269
+246
+255
+36
+26
+23
+23
+23
+
+5
+
+56
+root@DESKTOP-HCOV6N3:~# sed -i '1d;$d' sa87         --for 1st and last line deleted
+root@DESKTOP-HCOV6N3:~# cat sa87
+56
+5
+69
+48
+5
+2
+654
+6626
+269
+246
+255
+36
+26
+23
+23
+23
+
+5
+
+root@DESKTOP-HCOV6N3:~# cat sau87
+i live in pune
+pune
+mumbai
+Pune
+like Mumbai
+sometime
+i work
+my
+name iS
+Pune
+mumbai
+l want
+wessage
+womy
+parents
+myself
+yourself
+eonsided
+to Mumbai
+msdmk
+kmdfk
+pune
+adur
+
+
+jan
+
+loss
+find out
+martk
+root@DESKTOP-HCOV6N3:~# sed 's/pune/kolhapur/g' sau87        --replacing pune to kolhapur 
+i live in kolhapur
+kolhapur
+mumbai
+Pune
+like Mumbai
+sometime
+i work
+my
+name iS
+Pune
+mumbai
+l want
+wessage
+womy
+parents
+myself
+yourself
+eonsided
+to Mumbai
+msdmk
+kmdfk
+kolhapur
+adur
+
+
+jan
+
+loss
+find out
+martk
+root@DESKTOP-HCOV6N3:~# tac sau87        -- reverse if cat
+martk
+find out
+loss
+
+jan
+
+
+adur
+pune
+kmdfk
+msdmk
+to Mumbai
+eonsided
+yourself
+myself
+parents
+womy
+wessage
+l want
+mumbai
+Pune
+name iS
+my
+i work
+sometime
+like Mumbai
+Pune
+mumbai
+pune
+i live in pune
+root@DESKTOP-HCOV6N3:~# alias s="saurabh"           --short key or abrevation
+root@DESKTOP-HCOV6N3:~# s
+saurabh: command not found
+root@DESKTOP-HCOV6N3:~# alias cat=c
+root@DESKTOP-HCOV6N3:~# c sa87
+c: command not found
+root@DESKTOP-HCOV6N3:~# alias c="cat"
+root@DESKTOP-HCOV6N3:~# c sa87
+c: command not found
+root@DESKTOP-HCOV6N3:~# alias c=cat
+root@DESKTOP-HCOV6N3:~# c sa87
+c: command not found
+root@DESKTOP-HCOV6N3:~# alias a=cat
+root@DESKTOP-HCOV6N3:~# a sa87
+c: command not found
+root@DESKTOP-HCOV6N3:~# a sau87
+c: command not found
+root@DESKTOP-HCOV6N3:~# cat sa87
+56
+5
+69
+48
+5
+2
+654
+6626
+269
+246
+255
+36
+26
+23
+23
+23
+
+5
+root@DESKTOP-HCOV6N3:~# cat sort_1
+cat: sort_1: No such file or directory
+root@DESKTOP-HCOV6N3:~# cat > sort_1
+1
+2
+3
+4
+5
+root@DESKTOP-HCOV6N3:~# cat > sort_2
+3
+4
+5
+6
+7
+root@DESKTOP-HCOV6N3:~# comm sort_1 sort_2         --compring two files
+1
+2
+                3
+                4
+                5
+        6
+        7
+root@DESKTOP-HCOV6N3:~#  
+
+******************************************************************************************************
+
+
+
+
+

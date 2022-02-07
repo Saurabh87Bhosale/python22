@@ -1,0 +1,80 @@
+## django project
+
+HDFC-- Project name 
+
+loan      ---- 
+saving    ----  Applications
+creditcard----
+
+1. loan
+>> views
+   def prsonalloan(request):
+       return HttpResponse("<h1> Welcome to personal loan page </h1>")
+
+def homeloan(request):
+    return HttpResponse("<h1> Welcome to home loan page </h1>")
+
+def carloan(request):
+   return HttpResponse("<h1> Welcome to car loan page </h1>")
+
+>>url.py
+   from loan import views
+   
+   path('personalloan/',views.prsonalloan)
+   path('homeloan/',views.homeloan)
+   path('carloan/',views.carloan) 
+
+2. saving
+   def savingaccount(request):
+      return HttpResponse("<h1> saving account </h1> ")
+   
+    def currentaccount(request):
+      return HttpResponse("<h1> current account </h1> ")
+
+   def jointaccount(request):
+      return HttpResponse("<h1> joint account </h1> ")
+   
+>> url.py
+   from saving import views
+   
+   path('savingaccount/',views.savingaccount)
+   path('currentaccount/',views.currentaccount)
+   path('jointaccount/',views.jointaccount) 
+
+
+3.creditcard
+ 
+  def credit(request):
+      return HttpResponse("<h1> credit amount </h1>")
+
+  def remaining(request):
+      return HttpResponse("<h1> remaining amount </h1>")
+  
+  def duedate(request):
+      return HttpResponse("<h1> due date is </h1>")
+
+>> url.py
+   from creditcard import views
+   
+   path('credit/',views.credit)
+   path('remaining/',views.remaining)
+   path('duedate/',views.duedate) 
+
+4.HDFC
+
+>> url.py
+   
+   import path,include
+   path('loan/',include('loan.urls'))
+   path('saving/',include('saving.urls'))
+   path('creditcard/',include('creditcard.urls'))
+   
+
+>> python manage.py runserver
+    
+
+  
+ 
+ 
+   
+   https://drive.google.com/drive/u/2/folders/1Avjh5n1OAcH2OS0MegENzfSgiN8TCTEg
